@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/myaccount"
+            android:title="MY ACCOUNT" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/activeads"
+            android:title="ACTIVE ADS" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/pendingads"
+            android:title="PENDING ADS" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/sold"
+            android:title="SOLD ADS" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/logout"
+                android:title="LOG OUT" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="CHAT" />
+        </menu>
+    </item>
+    <item android:title="Developer">
+        <menu>
+            <item
+                android:id="@+id/dev_name"
+                android:title="SUMIT BANGAR" />
+            <item
+                android:id="@+id/dev_class"
+                android:title="MCA 2K20" />
+        </menu>
+    </item>
+
+</menu>

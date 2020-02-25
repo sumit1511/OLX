@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string-array name="degree">
+        <item>Degree Name</item>
+        <item>B.Tech</item>
+        <item>M.C.A</item>
+        <item>M.Tech</item>
+        <item>M.Sc</item>
+        <item>MBA</item>
+        <item>Ph.D</item>
+    </string-array>
+    <string-array name="semester">
+        <item>Select Semester</item>
+        <item>II</item>
+        <item>IV</item>
+        <item>VI</item>
+        <item>VII</item>
+    </string-array>
+    <string-array name="hostel">
+        <item>Select Hostel</item>
+        <item>S.V.B.HOSTEL</item>
+        <item>P.G HOSTEL</item>
+        <item>K.N.G.HOSTEL</item>
+        <item>S.N.G.HOSTEL</item>
+        <item>INTERNATIONAL HOUSE</item>
+        <item>R.N.TAGORE HOSTEL</item>
+        <item>C.V.RAMAN HOSTEL</item>
+        <item>M.M.MALVIYA HOSTEL</item>
+        <item>B.G.TILAK HOSTEL</item>
+        <item>S.V.PATEL HOSTEL</item>
+    </string-array>
+    <!-- Strings related to login -->
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="minimum_pass">Password To Short</string>
+    <string name="title_activity_home_">MNNIT OLX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title"></string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_pending_item_">user_pending_item_Activity</string>
+</resources>

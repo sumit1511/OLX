@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mnnitolx">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MNNITOLX"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SingleChat"></activity>
+        <activity android:name=".AllChat" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".user_item_option_Activity" />
+        <activity android:name=".profile_update_Activity" />
+        <activity android:name=".user_profile_Activity" />
+        <activity android:name=".single_item_viewActivity" />
+        <activity android:name=".user_sold_Activity" />
+        <activity android:name=".user_pending_Activity" />
+        <activity android:name=".user_verified_item_Activity" />
+        <activity android:name=".Add_item" />
+        <activity
+            android:name=".Home_Activity"
+            android:label="@string/title_activity_home_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
